@@ -148,15 +148,14 @@
                   </a>
                 </span> -->
                 <!-- Code Link. -->
-                <span class="link-block">
-                  <a href="https://github.com/npu-yanchi/gs-slam"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code(Coming Soon)</span>
-                  </a>
-                </span>
+                <!-- <span class="link-block">
+                  <button class="external-link button is-normal is-rounded is-dark" disabled>
+                      <span class="icon">
+                          <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code(Coming Soon)</span>
+                  </button>
+              </span> -->
                 <!-- Code Link. -->
                 <span class="link-block">
                   <a href="https://github.com/npu-yanchi/rasterization-for-gs-slam"
@@ -164,7 +163,7 @@
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Modified Rasterization Code(Coming Soon)</span>
+                    <span>Modified Rasterization Code</span>
                   </a>
                 </span>
               </div>
@@ -393,8 +392,6 @@
               </div>
             </div>
           </div>
-
-
           <!--/ Visual Effects. -->
 
           <!-- Matting. -->
@@ -457,6 +454,8 @@
     </div>
   </section>
 
+
+
   <script>
     new BeforeAfter({
       id: '#example1'
@@ -473,7 +472,21 @@
 
   </script>
 
-  <!-- 
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <img src="./static/images/render/total_render.png">
+            <p>Result on Replica dataset. We outperform existing dense neural RGB-D methods on the commonly reported
+              rendering metrics. Note that GS-SLAM achieves 386 FPS on average, benefitting from the efficient 3DGS scene representation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- 
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
@@ -491,7 +504,6 @@
 
   </div>
 </section> -->
-
   
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
